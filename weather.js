@@ -5,8 +5,12 @@ $(function() {
     // Put your code here to change the "markup" variable.
     // Don't change any other code in this file. You will be sad.
 
-    var markup = "Temperature: " + data.currently.temperature + "&deg; " +
-    "Windspeed:" + data.currently.windSpeed;//"The weather report... " + "will be here when I finish my homework.";
+    var markup = " <p>Current: " + data.currently.temperature + "&deg; "
+    + data.currently.summary +
+    "<p> Tomorrow: " + data.daily.data[0].summary +
+    "<p> The Day After Tomorrow: " + data.daily.data[1].summary +
+    "<p> The Day After the Day After Tomorrow: " + data.daily.data[2].summary;
+  
 
 
     // End of your code
