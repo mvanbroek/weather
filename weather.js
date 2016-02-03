@@ -9,7 +9,8 @@ $(function() {
     + data.currently.summary +
     "<p> Tomorrow: " + "High - " + data.daily.data[0].temperatureMax + "&deg;, " + "Low - " +data.daily.data[0].temperatureMin + "&deg;, " + data.daily.data[0].summary +
     "<p> The Day After Tomorrow: " + "High - " + data.daily.data[1].temperatureMax + "&deg;, " + "Low - " + data.daily.data[1].temperatureMin + "&deg;, " + data.daily.data[1].summary +
-    "<p> The Day After the Day After Tomorrow: " + "High - " + data.daily.data[2].temperatureMax + "&deg;, " + "Low - " + data.daily.data[1].temperatureMin + "&deg;, " + data.daily.data[2].summary;
+    "<p> The Day After the Day After Tomorrow: " + "High - " + data.daily.data[2].temperatureMax + "&deg;, " + "Low - " + data.daily.data[1].temperatureMin + "&deg;, " + data.daily.data[2].summary
+    ;
 
 
 
